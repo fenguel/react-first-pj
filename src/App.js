@@ -13,8 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-          <button onClick={() => setEnergy("true")}>ON</button>
-          <button onClick={() => setEnergy("false")}>OFF</button>
+          <button onClick={() => setEnergy(!energy)}>POWER</button>
           <button onClick={() => setVelocity("slow")}>SLOW</button>
           <button onClick={() => setVelocity("medium")}>MEDIUM</button>
           <button onClick={() => setVelocity("fast")}>FAST</button>
