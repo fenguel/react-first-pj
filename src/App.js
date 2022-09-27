@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} data-energy={energy} data-velocity={velocity} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ventilador
         </p>
           <button onClick={() => setEnergy(!energy)}>POWER</button>
           <button onClick={() => setVelocity("slow")}>SLOW</button>
